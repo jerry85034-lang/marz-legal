@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>萬象商學 MARZ Academy — Legal</title>
+  <style>
+    :root {
+      --bg: #F7F8FA;
+      --ink: #1A1A1A;
+      --muted: #5C5F66;
+      --line: #DADDE1;
+      --amber: #C9A67A;
+      --card: #FFFFFF;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 72px; }
+    .brand { font-size: 14px; letter-spacing: 0.08em; color: var(--amber); font-weight: 600; margin-bottom: 8px; }
+    h1 { font-size: 1.75rem; margin: 0 0 12px; font-weight: 700; }
+    p.lead { color: var(--muted); margin: 0 0 32px; }
+    .cards { display: grid; gap: 16px; }
+    a.card {
+      display: block;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 20px 22px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color .15s ease, box-shadow .15s ease;
+    }
+    a.card:hover { border-color: var(--amber); box-shadow: 0 6px 20px rgba(26,26,26,.06); }
+    a.card strong { display: block; font-size: 1.05rem; margin-bottom: 6px; }
+    a.card span { color: var(--muted); font-size: .95rem; }
+    footer { margin-top: 40px; font-size: .85rem; color: var(--muted); }
+    footer a { color: var(--ink); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="brand">萬象商學 · MARZ ACADEMY</div>
+    <h1>法律與資料相關頁面</h1>
+    <p class="lead">Legal pages for Meta / Instagram API apps operated by 萬象商學 MARZ Academy.</p>
+    <div class="cards">
+      <a class="card" href="privacy.html">
+        <strong>隱私權政策 Privacy Policy</strong>
+        <span>我們如何透過 Meta 官方 API 處理 Instagram 留言與私訊資料。</span>
+      </a>
+      <a class="card" href="data-deletion.html">
+        <strong>使用者資料刪除說明 Data Deletion</strong>
+        <span>如何申請刪除你的資料，以及我們的處理時限。</span>
+      </a>
+    </div>
+    <footer>
+      聯絡：<a href="mailto:jerry85034@gmail.com">jerry85034@gmail.com</a> ·
+      Instagram <a href="https://www.instagram.com/marz_academy/">@marz_academy</a>
+    </footer>
+  </main>
+</body>
+</html>
